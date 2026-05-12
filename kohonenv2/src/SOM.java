@@ -135,7 +135,7 @@ public class SOM {
 	}
 
 	public void warmup(double nowaEta, double noweS) {
-	    this.eta = nowaEta;
-	    this.S = noweS;
+	    this.eta = nowaEta*0.5;
+	    this.S = noweS*0.5;
 	}
 }
